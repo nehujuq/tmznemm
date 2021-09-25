@@ -1,7 +1,5 @@
-def is_int(n):
-    try:
-        return int(n) == float(n)
-    except ValueError:
-        return False
-a = input()
-print(is_int(a))
+a = float(input())
+if int(a) == a:
+    print('целое')
+else: 
+    print('дробное')
