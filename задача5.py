@@ -12,5 +12,5 @@ elif x == 0 and y != 0:
         print('ось y')
 elif x != 0 and y == 0:
         print('ось x')
-else x == 0 and y == 0:
+else:
     print('начало координат') 
