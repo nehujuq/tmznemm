@@ -1,0 +1,7 @@
+x = str(input())
+y = list()
+while x != '':
+    y.append(x)
+    x = str(input())
+else:
+    print(y)
