@@ -1,0 +1,8 @@
+s = input('строка ')
+k = int(input('число k '))
+a = 0 #счетчик
+for i in s:
+    if i.isdigit(): #явл ли символ в строке цифрой
+        a += 1
+        if a == k:
+            print(str(k) + '-ая цифра в строке ' + str(i))
