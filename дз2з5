@@ -1,0 +1,3 @@
+ch = input()
+for i in ch:
+    print(i)
