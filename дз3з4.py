@@ -1,6 +1,4 @@
-def s():
-    a = list() 
-    i = input() 
+from дз3з1 import s
     while b != '':
         a.append(b)
         b = input()
