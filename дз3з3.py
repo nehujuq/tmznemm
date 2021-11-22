@@ -1,10 +1,10 @@
-def fibonacci(n):
-    a = 0
-    b = 1
+def s():
+    a = list() 
+    i = input() 
     print(a)
     print(b)
     for i in range(n-2):
         a = a + b
         print(a)
         a , b = b , a
-x = fibonacci(int(input()))
+x = s(int(input()))
